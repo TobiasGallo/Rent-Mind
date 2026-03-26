@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec.bak
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# PyInstaller output
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Excel data files (datos de clientes - no subir al repo)
+*.xlsx
+*.xls
+*.csv
+
+# Logs exportados
+*.log
+logs/
+
+# Config local del usuario (se genera en AppData, no en el repo)
+config_whatsapp.json
+
+# Archivos temporales
+*.tmp
+*.temp
+~$*
